@@ -38,5 +38,5 @@ export LIBRARY_PATH="$CORE_INSTALL_DIR/lib${LIBRARY_PATH:+:$LIBRARY_PATH}"
 export LD_LIBRARY_PATH="$CORE_INSTALL_DIR/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
 
 pushd "$ROOT_DIR" >/dev/null
-cargo build
+cargo test
 popd >/dev/null

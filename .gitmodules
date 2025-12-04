@@ -1,4 +1,4 @@
 [submodule "core"]
 	path = core
-	url = https://github.com/triton-inference-server/core.git
+	url = https://github.com/swarmbits-com/core.git
 	branch = main
